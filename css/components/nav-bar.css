@@ -5,7 +5,7 @@
   background-color: #f9f9fa;
   padding: 20px 50px;
   box-sizing: border-box;
-  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  border-top: var(--my-gray);
 }
 .nav__list {
   display: flex;
@@ -20,16 +20,4 @@
   position: absolute;
   left: 20px;
   bottom: 20px;
-}
-.nav__dot {
-  background-color: tomato;
-  width: 5px;
-  height: 5px;
-  border-radius: 2.5px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  position: absolute;
-  left: 35px;
-  bottom: 30px;
 }
