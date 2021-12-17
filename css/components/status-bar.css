@@ -1,17 +1,27 @@
 .status-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  /* margin: 5px 5px; */
   display: flex;
-  justify-content: center;
-  padding: 5px 3px;
+  justify-content: space-between;
+  padding: 5px 5px;
 }
 .status-bar__column {
   width: 33%;
 }
 .status-bar__column:first-child span {
   margin-right: 5px;
+  /* position: fixed; */
+  /* left: 5%; */
 }
 .status-bar__column:nth-child(2) {
+  /* margin: 0 auto; */
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  position: fixed;
+  left: 50%;
 }
 .status-bar__column:last-child {
   display: flex;
