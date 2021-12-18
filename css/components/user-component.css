@@ -19,14 +19,30 @@
   color: rgba(0, 0, 0, 0.5);
 } */
 
+.main-screen .comments {
+  transition: color 0.3s ease-in-out;
+  color: rgba(0, 0, 0, 0.6);
+}
+.main-screen .comments:hover {
+  cursor: pointer;
+  color: black;
+  border-bottom: none;
+}
 .user-component__title {
   font-weight: 600;
   font-size: 22px;
 }
 .user-component__subtitle {
+  display: flex;
   margin-top: 5px;
+  align-items: center;
   font-size: 17px;
+
   color: var(--main-border);
+}
+.user-component__subtitle i {
+  margin-left: 10px;
+  color: tomato;
 }
 .user-component__avatar--xl {
   width: 80px;
