@@ -26,7 +26,6 @@
 .main-screen .comments:hover {
   cursor: pointer;
   color: black;
-  border-bottom: none;
 }
 .user-component__title {
   font-weight: 600;
