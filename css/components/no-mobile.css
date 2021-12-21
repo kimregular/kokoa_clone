@@ -1,0 +1,25 @@
+#no-mobile {
+  display: none;
+}
+@media screen and (min-width: 645px) {
+  #no-mobile {
+    position: fixed;
+
+    z-index: 99;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--yellow);
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 600;
+  }
+  /* 스크롤 불가 설정 */
+  body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+}
